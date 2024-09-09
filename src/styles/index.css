@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+ul li {
+    border:1px solid grey;
+    list-style: none;
+    padding: 9px;
+}
+
+input {
+    border: none;
+}
+
+
+.taskList {
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.numberTask {
+    margin-right: 95%;
+}
+
+.btn {
+    --bs-btn-padding-x: 0rem;
+    --bs-btn-padding-y: 0rem;
+    font-size: smaller;
+}
